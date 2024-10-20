@@ -24,6 +24,14 @@ if __name__ == '__main__':
     my_car.read_odometer()
     my_car.odometer_update(19)
     my_car.read_odometer()
+
+    my_elecCar = car.electricCar('BMW','R8',2021)
+
+    print(my_elecCar.get_descriptive_name())
+    my_elecCar.battry.__init__(20)
+    my_elecCar.battry.get_descriptive_battry()
+    my_elecCar.battry.ger_range()
+
 '''
     my_dog = dog.Dog(27, 'William')
     print(f'my dog name is {my_dog.name}')
@@ -32,17 +40,6 @@ if __name__ == '__main__':
     my_dog.roll_over()
 '''
 
-
-
-
-'''    
-    my_elecCar = car.electricCar('BMW','R8',2021)
-
-    print(my_elecCar.get_descriptive_name())
-    my_elecCar.battry.__init__(20)
-    my_elecCar.battry.get_descriptive_battry()
-    my_elecCar.battry.ger_range()
-'''
 
 
 
