@@ -1,6 +1,6 @@
 # This is a sample Python script.
 import car
-#from car import electricCar
+from car import electricCar
 import dog
 
 
@@ -32,13 +32,15 @@ if __name__ == '__main__':
     my_elecCar.battry.get_descriptive_battry()
     my_elecCar.battry.ger_range()
 
-'''
+
     my_dog = dog.Dog(27, 'William')
     print(f'my dog name is {my_dog.name}')
     print(f'my dog age is {my_dog.age}')
     my_dog.sit()
     my_dog.roll_over()
-'''
+    my_dog.barking()
+
+    #-------------------------------------------
 
 
 
