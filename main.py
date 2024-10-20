@@ -16,11 +16,13 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
+
     my_dog = dog.Dog(27, 'William')
     print(f'my dog name is {my_dog.name}')
     print(f'my dog age is {my_dog.age}')
     my_dog.sit()
     my_dog.roll_over()
+    my_dog.barking()
 '''    
     my_elecCar = car.electricCar('BMW','R8',2021)
 

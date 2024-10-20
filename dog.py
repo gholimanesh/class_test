@@ -11,6 +11,9 @@ class Dog :
     def sit(self) :
         print(f"{self.name} is sitting now " )
 
+    def barking(self):
+        print(f"{self.name} is barking ")
+
 if __name__ == '__main__':
 
     print("Dog class definition")
